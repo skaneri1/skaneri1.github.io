@@ -386,8 +386,8 @@ a:hover, a:active, a:focus {
    About section              
 -----------------------------------------*/
 
-#about .about-img {
-    background: url('../images/about-img.jpg') no-repeat;
+#about .sk-img {
+    background: url('../images/sk-img.jpg') no-repeat;
 }
 
 #about .about-thumb,
