@@ -359,8 +359,8 @@ a:hover, a:active, a:focus {
   padding-left: 0;
 }
 
-#home .home-img {
-  background: url('../images/home-img.jpg') no-repeat;
+#home .head-img {
+  background: url('../images/head-img.jpg') no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   width: 100%;
