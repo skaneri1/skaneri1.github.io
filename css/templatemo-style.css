@@ -277,8 +277,12 @@ a:hover, a:active, a:focus {
 }
 
 .custom-navbar .navbar-brand {
-    color: #333;
-	text-shadow: 1px 1px #fff;
+    color: #FFF;
+    text-shadow:
+	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;
     font-weight: bold;
     font-size: 24px;
     line-height: 35px;
