@@ -388,7 +388,6 @@ a:hover, a:active, a:focus {
 
 #about .sk-img {
     background: url('../images/sk-img.jpg') no-repeat;
-    background-size: cover;
 }
 
 #about .about-thumb,
