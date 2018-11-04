@@ -469,8 +469,8 @@ a:hover, a:active, a:focus {
   background: #E3AE57;
 }
 
-#education .education-img {
-  background: url('../images/education-img.jpg') no-repeat;
+#education .edu-img {
+  background: url('../images/edu-img.jpg') no-repeat;
 }
 
 #education .media-heading {
