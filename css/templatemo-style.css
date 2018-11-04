@@ -536,8 +536,8 @@ a:hover, a:active, a:focus {
   min-height: 75vh;
 }
 
-#contact .contact-img {
-  background: url('../images/contact-img.jpg') no-repeat;
+#contact .sk-orig {
+  background: url('../images/sk-orig.jpg') no-repeat;
   min-height: 75vh;
 }
 
