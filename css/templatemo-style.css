@@ -443,8 +443,8 @@ a:hover, a:active, a:focus {
     Experience section              
 -----------------------------------------*/
 
-#experience .experience-img {
-  background: url('../images/experience-img.jpg') no-repeat;
+#experience .jpmc-img {
+  background: url('../images/jpmc-img.jpeg') no-repeat;
 }
 
 #experience .media-heading {
