@@ -1060,7 +1060,7 @@ body.offcanvas {
       width: 100px;
       height: 100px;
       font-size: 50px;
-      color: #2c98f0;
+      color: #676767;
       background: #fff;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -1112,11 +1112,11 @@ body.offcanvas {
         .colorlib-social li a {
           padding: 10px 8px; } }
       .colorlib-social li a:hover {
-        color: #2c98f0; }
+        color: #676767; }
       .colorlib-social li a:hover, .colorlib-social li a:active, .colorlib-social li a:focus {
         outline: none;
         text-decoration: none;
-        color: #2c98f0; }
+        color: #676767; }
 
 #map {
   width: 100%;
@@ -1148,19 +1148,19 @@ body.offcanvas {
         -ms-border-radius: 2px;
         border-radius: 2px; }
       .pagination li a:hover, .pagination li a:focus {
-        background: #2c98f0;
+        background: #676767;
         color: #fff;
-        border: 1px solid #2c98f0; }
+        border: 1px solid #676767; }
       @media screen and (max-width: 768px) {
         .pagination li a {
           padding: 7px 15px; } }
     .pagination li.active a {
-      background: #2c98f0;
-      border: 1px solid #2c98f0 !important; }
+      background: #676767;
+      border: 1px solid #676767 !important; }
       .pagination li.active a:hover, .pagination li.active a:focus {
-        background: #2c98f0;
+        background: #676767;
         color: #fff;
-        border: 1px solid #2c98f0 !important; }
+        border: 1px solid #676767 !important; }
 
 .btn {
   margin-right: 4px;
