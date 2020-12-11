@@ -33,6 +33,12 @@
     <!-- captcha -->
     <script src="https://www.google.com/recaptcha/api.js"></script>
 
+    <script>
+       function onSubmit(token) {
+         document.getElementById("demo-form").submit();
+       }
+    </script>
+
     <!-- Preloader -->
     <div id="preloader">
         <div id="status">
@@ -255,7 +261,10 @@
                     <input type="email" name="email" class="form-control" placeholder="Your E-mail" />
                     <input type="text" name="phone" class="form-control" placeholder="Phone Number" />
                     <textarea name="message" class="form-control" placeholder="Your Message" style="height:120px"></textarea>
-                    <div class="g-recaptcha brochure__form__captcha" data-sitekey="6LervAIaAAAAAJNUSGM24--b8hl7xdtZjoleo5Ea"></div>
+                    <button class="g-recaptcha"
+                        data-sitekey="6LervAIaAAAAAJNUSGM24--b8hl7xdtZjoleo5Ea" 
+                        data-callback='onSubmit'
+                        data-action='submit'>Submit</button>
                     <button id="submit" type="submit" name="submit" class="btn btn-glance">Send</button>
                     <div id="success">
                         <p class="green textcenter"> Your message was sent successfully! I will be in touch as soon as I can. </p>
