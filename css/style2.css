@@ -319,6 +319,10 @@ a.active {
     background-size: cover;
 }
 
+.papers {
+  padding-left: 150px;
+}
+
 /* education section
 ==================================================*/
 #education {
