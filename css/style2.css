@@ -304,13 +304,9 @@ a.active {
     left: 100px;
     z-index: 1
 }
-/* education section
-==================================================*/
-#education {
-    padding: 50px 0;
-    background: #f3f3f3
-}
 
+/* research section
+==================================================*/
 
 #research {
     padding: 50px 0;
@@ -322,6 +318,14 @@ a.active {
     -ms-background-size: cover;
     background-size: cover;
 }
+
+/* education section
+==================================================*/
+#education {
+    padding: 50px 0;
+    background: #f3f3f3
+}
+
 /* experience section
 ==================================================*/
 
@@ -446,7 +450,7 @@ a.active {
 }
 
 
-/* video section
+/* portfolio section
 ==================================================*/
 
 .layer {
@@ -480,17 +484,6 @@ a.btn-slide:hover {
     transition: border 0.2s ease;
     background-color: #D3D3D3;
     border: 3px solid #000;
-}
-
-#video {
-    padding: 50px 0;
-    background: url(../img/blank.png) center no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    background-size: cover;
 }
 
 .portfolio .categories-grid span {
@@ -668,6 +661,19 @@ a.btn-slide:hover {
     line-height: 50px;
 }
 
+/* video
+==================================================*/
+
+#video {
+    padding: 50px 0;
+    background: url(../img/blank.png) center no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+}
 
 /* contact
 ==================================================*/
