@@ -15,7 +15,9 @@
     - home section -
     - About section -
     - experience section -
-    - projects section -
+    - research section -
+    - education section -
+    - video section -
     - Contact section -
     - Responsive media queries -
 */
@@ -309,6 +311,17 @@ a.active {
     background: #f3f3f3
 }
 
+
+#research {
+    padding: 50px 0;
+    background: url(../img/research.png) center no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+}
 /* experience section
 ==================================================*/
 
