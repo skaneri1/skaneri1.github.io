@@ -687,102 +687,114 @@ a.btn-slide:hover {
     padding: 50px 0;
 }
 
-#contact-form input,
-#contact-form textarea {
-    height: 50px;
-    margin-bottom: 10px;
-    border-radius: 0;
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: 1.25rem;
+  margin-bottom: .5rem;
+  padding-top: .2rem;
+  display: flex;
+  align-items: baseline;
 }
 
-#contact-form label {
-    display: block;
-    margin-bottom: .2em;
-    font-size: 13px;
-    line-height: 13px;
-    font-size: 1.3rem;
-    line-height: 1.3rem;
-    color: #000;
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: rgba(255,255,255,0.9);
+  padding: .75em 1rem;
+  margin-bottom: 1.5rem;
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  background-color: #790001;
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  width: 100%;
+}
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-bottom: 0;
+}
+#fs-frm select {
+  text-transform: none;
 }
 
-#contact-form label.error {
-    margin-top: 10px;
-    margin-bottom: 1em;
-    font-size: 12px;
-    line-height: 12px;
-    font-size: 1.2rem;
-    line-height: 1.2rem;
-    color: #D33E43;
-    margin-left: 10px
+#fs-frm [type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  margin: 0 .5em 0 0 !important;
 }
 
-#contact-form input[type="text"].error,
-#contact-form input[type="password"].error,
-#contact-form input[type="date"].error,
-#contact-form input[type="datetime"].error,
-#contact-form input[type="datetime-local"].error,
-#contact-form input[type="month"].error,
-#contact-form input[type="week"].error,
-#contact-form input[type="email"].error,
-#contact-form input[type="number"].error,
-#contact-form input[type="search"].error,
-#contact-form input[type="tel"].error,
-#contact-form input[type="time"].error,
-#contact-form input[type="url"].error,
-#contact-form textarea.error {
-    border-color: #D33E43
+#fs-frm [type="radio"] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
 }
 
-textarea {
-    resize: none;
+/* address, locale */
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  display: inline;
 }
-
-fieldset {
-    border: 0px;
-    margin: 0;
-    padding: 0
+#fs-frm fieldset.locale input[name="city"] {
+  width: 52%;
 }
-
-.required {
-    color: #e9266d
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  width: 20%;
 }
-
-#success,
-#error {
-    display: none
-}
-
-#success p,
-#error p {
-    display: block;
-}
-
-#success p {
-    color: #790001;
-    font-size: 15px;
-    text-align: center;
-    padding: 10px;
-    border: 2px solid #790001;
-    margin-top: 10px;
-}
-
-#error p {
-    color: #D33E43;
-    font-size: 15px;
-    text-align: center;
-    padding: 10px;
-    border: 2px solid #D33E43;
-    margin-top: 10px;
-}
-
-#submit {
-    background-color: #790001;
-    color: #fff;
-    padding: 10px 40px;
-    border-radius: 0;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: bold;
-    width: 100%;
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"] {
+  margin-right: 3%;
 }
 .social {
     padding-left: 0;
