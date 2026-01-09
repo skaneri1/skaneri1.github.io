@@ -80,14 +80,62 @@ header {
 /* banner */
 
 .layer {
-    background: rgba(25, 98, 106, 0.23);
     background: rgba(0, 0, 0, 0.00);
-    padding: 19vw 0 0;
+    padding: 10vw 2rem 2rem;
     min-height: 100vh;
 }
 
+/* Add padding to container */
+.banner-split-layout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    min-height: 60vh;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.banner-text-section {
+    flex: 0 0 66.666%;
+    max-width: 66.666%;
+    padding-right: 2rem;
+}
+
+.banner-image-section {
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headshot-container {
+    width: 100%;
+    max-width: 450px;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circular-headshot {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 8px solid rgba(0, 0, 0, 1);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.circular-headshot:hover {
+    transform: scale(1.07);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+}
+
 .agile_banner.bg1 {
-    background: url(../images/whiter.jpg) center no-repeat;
+    background: url(../img/blank.png) center no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -230,6 +278,38 @@ span.banner_text_w3ls {
         left: 43%;
         top: 15px;
     }
+    .banner-split-layout {
+        flex-direction: column;
+        text-align: center;
+        gap: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .banner-text-section {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-right: 0;
+        order: 2;
+    }
+
+    .banner-image-section {
+        flex: 0 0 100%;
+        max-width: 100%;
+        order: 1;
+    }
+
+    .headshot-container {
+        max-width: 250px;
+        margin: 0 auto;
+    }
+
+    #text {
+        text-align: center;
+    }
+
+    ul.list-inline.bnr_list_w3 {
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -279,6 +359,13 @@ span.banner_text_w3ls {
     .logo_wthree a {
         left: 43%;
         top: 15px;
+    }
+    .headshot-container {
+        max-width: 200px;
+    }
+
+    .banner-split-layout {
+        gap: 2rem;
     }
 }
 
@@ -402,8 +489,15 @@ span.banner_text_w3ls {
         font-size: 1.8em;
         height: 90px;
     }
+    .banner-split-layout {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .headshot-container {
+        max-width: 180px;
+    }
     .layer {
-        padding: 50vw 3vw 0;
+        padding: 30vw 3vw 3vw;
     }
 }
 

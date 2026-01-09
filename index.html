@@ -1,5 +1,4 @@
-<!--Author: Shlok Kaneria
--->
+<!--Author: Shlok Kaneria-->
 
 <!DOCTYPE html>
 <html lang="zxx">
@@ -45,25 +44,33 @@
         <!-- banner slide -->
         <div class="agile_banner bg1">
             <div class="layer">
-                <div class="container">
-                    <div class="banner_text_wthree">
-                        <div id="text" class="banner_text_w3ls my-md-4 my-2"></div>
-                        <ul class="list-inline bnr_list_w3">
-                            <li class="list-inline-item">
-                                <a class="btn text-black" href="portfolio.html">Portfolio</a>
-                            </li>
-<!--                            <li class="list-inline-item">-->
-<!--                                <a class="btn text-black" href="Kaneria,Shlok.pdf" target="_blank">Résumé</a>-->
-<!--                            </li>-->
-                            <li class="list-inline-item">
-                                <a class="btn text-black" href="https://shloks.darkroom.tech" target="_blank">Art</a>
-                            </li>
-                        </ul>
+                <div class="container-fluid">
+                    <div class="banner-split-layout">
+                        <!-- Left side: Text content (2/3) -->
+                        <div class="banner-text-section">
+                            <div class="banner_text_wthree">
+                                <div id="text" class="banner_text_w3ls my-md-4 my-2"></div>
+                                <ul class="list-inline bnr_list_w3">
+                                    <li class="list-inline-item">
+                                        <a class="btn text-black" href="portfolio.html">Portfolio</a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="btn text-black" href="https://shloks.darkroom.tech" target="_blank">Art</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Right side: Circular headshot (1/3) -->
+                        <div class="banner-image-section">
+                            <div class="headshot-container">
+                                <img src="images/head.png" alt="Shlok Kaneria" class="circular-headshot">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </section>
     <!-- //banner-->
     <!-- footer -->
@@ -86,11 +93,11 @@
         document.addEventListener('DOMContentLoaded', function (event) {
 
             var dataText = [
-                "Hi there, I'm  Shlok Kaneria.",
-                "I'm a Product Manager and ex-software engineer...",
-                "Product vision and strategy are my forte.",
-                "I'm also an Artist and Videographer...",
-                "Welcome to my site, I hope to work with you soon!",
+                "Hi there, I'm  Shlok Kaneria",
+                "I'm a Product Manager and Engineer",
+                "Product Vision and Strategy are my forte",
+                "I'm also an Artist and Videographer",
+                "I hope to work with you soon!",
             ];
 
             // type one text in the typwriter
@@ -129,7 +136,7 @@
         });
     </script>
 
-    <!-- //banner text animation -->
+    <!-- banner text animation -->
     <!-- smooth scroll -->
     <script src="js/SmoothScroll.min.js "></script>
     <!-- Bootstrap Core JavaScript -->
